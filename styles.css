@@ -1,0 +1,96 @@
+/*CSS Reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+/*class selectors - grouped*/
+
+.home, .recipe-body {
+    margin: 5px auto;
+    width: 500px;
+    padding: 50px;
+    list-style-position: inside
+}
+
+
+ .recipe-ingredients, .recipe-steps {
+    background-color:aliceblue;
+    padding: 10px 10px;
+    line-height: 1.3rem;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.home-recipes, .recipe-ingredients-items-item, .recipe-steps-items-item {
+    font-weight: 600;
+    padding: 10px 0;
+    list-style: none;
+}
+
+/* class selectors - descendant - grouped*/
+
+.recipe-ingredients-items ul,
+.recipe-ingredients-items ol,
+.recipe-steps-items ul,
+.recipe-steps-items ol {
+    
+    padding-left: 20px;
+}
+
+.home-recipes, li {
+    padding-bottom: 20px;
+}
+
+/* class selectors - individual*/
+
+.center-div {
+    margin: 20px auto;
+}
+.home {
+    background-color: rgb(250, 162, 103);
+    height: 100vh;
+
+}
+
+.recipe-body {
+    background-color: rgb(255, 194, 154);
+}
+
+.recipe-image {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/*type selectors*/
+
+h1, h2 {
+
+    font-family: "Times New Roman", "Times", serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+body {
+
+    font-family: "Arial", "sans-serif";
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+li {
+    margin: 10px 0;
+}
+
